@@ -2,8 +2,152 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f380b250-21ba-49e5-b050-a327ef643328" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/models/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/highlighting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/books/create.scala.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/books/index.scala.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/livraria.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/livraria.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/play2_project_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/play2_project_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/play2_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/play2_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/BooksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/BooksController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/plugins.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/project/plugins.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$d04ab8bdce6549f37589$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$d04ab8bdce6549f37589.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$d04ab8bdce6549f37589.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$08bb2e4d10b01936746d$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$08bb2e4d10b01936746d.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$08bb2e4d10b01936746d.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1adbdbdfc4fb530522b7$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1adbdbdfc4fb530522b7.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1adbdbdfc4fb530522b7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1fff30b0dca8b41b74e1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1fff30b0dca8b41b74e1.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1fff30b0dca8b41b74e1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2af9a5e385d2b3ce4cb4$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2af9a5e385d2b3ce4cb4.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2af9a5e385d2b3ce4cb4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$49932fa6563cc1ee1a88$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$49932fa6563cc1ee1a88.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$49932fa6563cc1ee1a88.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b7057b3d010873460f0f$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b7057b3d010873460f0f.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b7057b3d010873460f0f.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cee1f7d178ceb80192d4$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cee1f7d178ceb80192d4.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cee1f7d178ceb80192d4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/livraria-playframework-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/livraria-playframework-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/livraria-playframework-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/livraria-playframework-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-livraria-playframework-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-livraria-playframework-build-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-livraria-playframework-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-livraria-playframework-build-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-livraria-playframework-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-livraria-playframework-build-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-livraria-playframework-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-livraria-playframework-build-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-livraria-playframework-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-livraria-playframework-build-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-livraria-playframework-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-livraria-playframework-build-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-livraria-playframework-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-livraria-playframework-build-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-livraria-playframework-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-livraria-playframework-build-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-livraria-playframework-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-livraria-playframework-build-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-livraria-playframework-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-livraria-playframework-build-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-livraria-playframework-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-livraria-playframework-build-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/BooksController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/controllers/BooksController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/com.example/livraria_2.13/1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/com.example/livraria_2.13/1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/com.example/livraria_2.13/1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/com.example/livraria_2.13/1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/com.example/play-java-hello-world-web_2.13/1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/com.example/play-java-hello-world-web_2.13/1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-debian.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-debian.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-docker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-docker.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-docs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-docs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-linux.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-linux.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-rpm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-rpm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-universal-docs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-universal-docs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-universal-src.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-universal-src.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-universal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-universal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-web-assets-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-web-assets-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-web-assets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-web-assets.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-web-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-web-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-windows.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-livraria_2.13-windows.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-play-java-hello-world-web_2.13-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-play-java-hello-world-web_2.13-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-play-java-hello-world-web_2.13-debian.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-play-java-hello-world-web_2.13-docker.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-play-java-hello-world-web_2.13-docs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-play-java-hello-world-web_2.13-linux.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-play-java-hello-world-web_2.13-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-play-java-hello-world-web_2.13-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-play-java-hello-world-web_2.13-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-play-java-hello-world-web_2.13-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-play-java-hello-world-web_2.13-rpm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-play-java-hello-world-web_2.13-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-play-java-hello-world-web_2.13-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-play-java-hello-world-web_2.13-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-play-java-hello-world-web_2.13-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-play-java-hello-world-web_2.13-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-play-java-hello-world-web_2.13-universal-docs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-play-java-hello-world-web_2.13-universal-src.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-play-java-hello-world-web_2.13-universal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-play-java-hello-world-web_2.13-web-assets-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-play-java-hello-world-web_2.13-web-assets.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-play-java-hello-world-web_2.13-web-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/com.example-play-java-hello-world-web_2.13-windows.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/routes/main/controllers/ReverseRoutes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/routes/main/controllers/ReverseRoutes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/routes/main/controllers/routes.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/routes/main/controllers/routes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/routes/main/router/Routes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/routes/main/router/Routes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/routes/main/router/RoutesPrefix.scala" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/routes/main/router/RoutesPrefix.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/twirl/main/views/html/Home/welcome.template.scala" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/twirl/main/views/html/Home/welcome.template.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/twirl/main/views/html/commonSidebar.template.scala" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/twirl/main/views/html/commonSidebar.template.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/twirl/main/views/html/explore.template.scala" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/twirl/main/views/html/explore.template.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/twirl/main/views/html/index.template.scala" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/twirl/main/views/html/index.template.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/twirl/main/views/html/main.template.scala" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/twirl/main/views/html/main.template.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/twirl/main/views/html/tutorial.template.scala" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/twirl/main/views/html/tutorial.template.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/playCommonClassloader/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.13.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/playRoutes/$global/streams/op-cache" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/playRoutes/$global/streams/op-cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/play-java-hello-world-web/1.0-SNAPSHOT/images/compilation-error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/play-java-hello-world-web/1.0-SNAPSHOT/images/external.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/play-java-hello-world-web/1.0-SNAPSHOT/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/play-java-hello-world-web/1.0-SNAPSHOT/images/favicon0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/play-java-hello-world-web/1.0-SNAPSHOT/images/header-pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/play-java-hello-world-web/1.0-SNAPSHOT/images/hello-custom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/play-java-hello-world-web/1.0-SNAPSHOT/images/hello-one.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/play-java-hello-world-web/1.0-SNAPSHOT/images/play-components.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/play-java-hello-world-web/1.0-SNAPSHOT/images/play-request-response.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/play-java-hello-world-web/1.0-SNAPSHOT/images/play-stack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/play-java-hello-world-web/1.0-SNAPSHOT/images/play_icon_reverse.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/play-java-hello-world-web/1.0-SNAPSHOT/images/request-response.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/play-java-hello-world-web/1.0-SNAPSHOT/javascripts/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/play-java-hello-world-web/1.0-SNAPSHOT/javascripts/prism.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/play-java-hello-world-web/1.0-SNAPSHOT/stylesheets/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web/classes/main/META-INF/resources/webjars/play-java-hello-world-web/1.0-SNAPSHOT/stylesheets/prism.css" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,31 +175,24 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/routes">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/BooksController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="248">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#643#644#0" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/Book.java">
+        <entry file="file://$PROJECT_DIR$/app/views/books/create.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -77,9 +214,16 @@
       <list>
         <option value="$PROJECT_DIR$/app/controllers/HomeController.java" />
         <option value="$PROJECT_DIR$/conf/routes" />
+        <option value="$PROJECT_DIR$/project/plugins.sbt" />
+        <option value="$PROJECT_DIR$/app/views/books/index.scala.html" />
         <option value="$PROJECT_DIR$/app/models/Book.java" />
+        <option value="$PROJECT_DIR$/app/controllers/BooksController.java" />
+        <option value="$PROJECT_DIR$/app/views/books/create.scala.html" />
       </list>
     </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="Play2ProjectSettings">
     <option name="LANGUAGE_IMPORTS">
@@ -89,8 +233,8 @@
         <option value="java.lang._" />
         <option value="play.mvc._" />
         <option value="_root_.play.twirl.api.Txt" />
-        <option value="play.data._" />
         <option value="play.api.data.Field" />
+        <option value="play.data._" />
         <option value="play.api.templates.PlayMagic._" />
         <option value="_root_.play.twirl.api.JavaScript" />
         <option value="play.core.j.PlayMagicForJava._" />
@@ -118,24 +262,19 @@
         <subPane>
           <expand>
             <path>
-              <item name="livraria-playframework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="livraria" type="b2602c69:ProjectViewProjectNode" />
               <item name="livraria-playframework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="livraria-playframework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="livraria" type="b2602c69:ProjectViewProjectNode" />
               <item name="livraria-playframework" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="livraria-playframework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="livraria" type="b2602c69:ProjectViewProjectNode" />
               <item name="livraria-playframework" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="livraria-playframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="livraria-playframework" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -151,6 +290,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -164,6 +306,22 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Play Debugger" type="Remote">
+      <module name="livraria" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="9999" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9999" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SbtLocalSettings">
     <option name="availableProjects">
@@ -213,15 +371,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563387123120</updated>
-      <workItem from="1563387126004" duration="2030000" />
+      <workItem from="1563387126004" duration="6711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2030000" />
+    <option name="totallyTimeSpent" value="6711000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1354" y="0" width="1374" height="724" extended-state="6" />
+    <frame x="1366" y="0" width="1366" height="728" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -229,11 +387,11 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25151515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" weight="0.32885906" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" weight="0.32885906" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32885906" />
+      <window_info anchor="bottom" id="Build" weight="0.32833335" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" weight="0.32833335" />
+      <window_info anchor="bottom" id="Terminal" weight="0.49166667" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -263,6 +421,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/controllers/BooksController.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -274,33 +444,140 @@
     <entry file="file://$PROJECT_DIR$/conf/routes">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/BooksController.java">
+    <entry file="file://$PROJECT_DIR$/app/views/commonSidebar.scala.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state>
+          <caret column="58" selection-start-column="58" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/books/index.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+        <state relative-caret-position="244">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#988#989#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/BooksController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/books/create.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>livraria</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

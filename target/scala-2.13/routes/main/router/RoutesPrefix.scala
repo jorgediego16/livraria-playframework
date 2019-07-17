@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/desenvolvedor0/Documentos/livraria-playframework/conf/routes
-// @DATE:Wed Jul 17 15:29:33 BRT 2019
+// @DATE:Wed Jul 17 17:09:03 BRT 2019
 
 
 package router {

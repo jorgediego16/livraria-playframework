@@ -3,6 +3,13 @@
   <component name="Play2ExcludedModulesSettings">
     <option name="INFO">
       <map>
+        <entry key="livraria">
+          <value>
+            <ProjectSettingsEntry>
+              <option name="playDistrPath" value="$USER_HOME$/.ivy2/cache/com.typesafe.play/play_2.13/jars/play_2.13-2.7.3.jar" />
+            </ProjectSettingsEntry>
+          </value>
+        </entry>
         <entry key="livraria-playframework">
           <value>
             <ProjectSettingsEntry>

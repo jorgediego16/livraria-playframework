@@ -1,9 +1,80 @@
-2019-07-17 15:29:44,570 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-2 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2019-07-17 17:11:47,113 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-3 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
     play.filters.csrf.CSRFFilter
     play.filters.headers.SecurityHeadersFilter
     play.filters.hosts.AllowedHostsFilter
 
-2019-07-17 15:29:44,641 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-2 - Application started (Dev) (no global state)
-2019-07-17 15:29:44,841 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-3 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
-2019-07-17 15:29:44,842 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-3 - The JWT signature in the cookie does not match the locally computed signature with the server. This usually indicates the browser has a leftover cookie from another Play application, so clearing cookies may resolve this error message.
+2019-07-17 17:11:47,133 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-3 - Application started (Dev) (no global state)
+2019-07-17 17:11:47,437 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-7 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2019-07-17 17:11:47,442 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-7 - The JWT signature in the cookie does not match the locally computed signature with the server. This usually indicates the browser has a leftover cookie from another Play application, so clearing cookies may resolve this error message.
+2019-07-17 17:11:47,777 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-4 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2019-07-17 17:11:47,777 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-4 - The JWT signature in the cookie does not match the locally computed signature with the server. This usually indicates the browser has a leftover cookie from another Play application, so clearing cookies may resolve this error message.
+2019-07-17 17:11:47,781 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-5 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2019-07-17 17:11:47,781 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-5 - The JWT signature in the cookie does not match the locally computed signature with the server. This usually indicates the browser has a leftover cookie from another Play application, so clearing cookies may resolve this error message.
+2019-07-17 17:11:47,785 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-6 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2019-07-17 17:11:47,785 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-6 - The JWT signature in the cookie does not match the locally computed signature with the server. This usually indicates the browser has a leftover cookie from another Play application, so clearing cookies may resolve this error message.
+2019-07-17 17:11:47,788 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-2 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2019-07-17 17:11:47,788 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-2 - The JWT signature in the cookie does not match the locally computed signature with the server. This usually indicates the browser has a leftover cookie from another Play application, so clearing cookies may resolve this error message.
+2019-07-17 17:11:47,793 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-7 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2019-07-17 17:11:47,793 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-3 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2019-07-17 17:11:47,793 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-7 - The JWT signature in the cookie does not match the locally computed signature with the server. This usually indicates the browser has a leftover cookie from another Play application, so clearing cookies may resolve this error message.
+2019-07-17 17:11:47,793 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-3 - The JWT signature in the cookie does not match the locally computed signature with the server. This usually indicates the browser has a leftover cookie from another Play application, so clearing cookies may resolve this error message.
+2019-07-17 17:12:20,108 [WARN] from play.filters.CSRF in play-dev-mode-akka.actor.default-dispatcher-7 - [CSRF] Check failed because no or invalid token found in body for /books/create
+2019-07-17 17:12:20,110 [WARN] from play.filters.CSRF in play-dev-mode-akka.actor.default-dispatcher-7 - [CSRF] Check failed with NoTokenInBody for /books/create
+2019-07-17 17:12:30,178 [WARN] from play.filters.CSRF in play-dev-mode-akka.actor.default-dispatcher-9 - [CSRF] Check failed because no or invalid token found in body for /books/create
+2019-07-17 17:12:30,179 [WARN] from play.filters.CSRF in play-dev-mode-akka.actor.default-dispatcher-9 - [CSRF] Check failed with NoTokenInBody for /books/create
+2019-07-17 17:13:19,996 [WARN] from play.filters.CSRF in play-dev-mode-akka.actor.default-dispatcher-3 - [CSRF] Check failed because no or invalid token found in body for /books/create
+2019-07-17 17:13:19,997 [WARN] from play.filters.CSRF in play-dev-mode-akka.actor.default-dispatcher-3 - [CSRF] Check failed with NoTokenInBody for /books/create
+2019-07-17 17:13:25,847 [WARN] from play.filters.CSRF in play-dev-mode-akka.actor.default-dispatcher-3 - [CSRF] Check failed because no or invalid token found in body for /books/create
+2019-07-17 17:13:25,847 [WARN] from play.filters.CSRF in play-dev-mode-akka.actor.default-dispatcher-3 - [CSRF] Check failed with NoTokenInBody for /books/create
+2019-07-17 17:15:12,180 [ERROR] from application in play-dev-mode-akka.actor.default-dispatcher-9 - 
+
+! @7cgng5l5m - Internal server error, for (GET) [/books/create] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[value save is not a member of object controllers.BooksController]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:37)
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:37)
+	at scala.Option.map(Option.scala:146)
+	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$1(PlayReload.scala:41)
+	at scala.Option.map(Option.scala:146)
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:36)
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:29)
+	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:64)
+	at scala.util.Either$LeftProjection.map(Either.scala:569)
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:64)
+	at play.sbt.run.PlayRun$.$anonfun$playRunTask$4(PlayRun.scala:80)
+	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:501)
+	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:58)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:64)
+	at play.runsupport.Reloader.reload(Reloader.scala:501)
+	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:143)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:304)
+	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:189)
+	at akka.stream.impl.fusing.MapAsync$$anon$30.onPush(Ops.scala:1261)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:523)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:409)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:606)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:485)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:581)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:749)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:764)
+	at akka.actor.Actor.aroundReceive(Actor.scala:539)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:537)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:671)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:612)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:581)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:268)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:229)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:241)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2019-07-17 17:16:15,318 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-30 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2019-07-17 17:16:15,323 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-30 - Application started (Dev) (no global state)

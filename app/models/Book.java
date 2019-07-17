@@ -17,6 +17,8 @@ public class Book {
         this.author = author;
     }
 
+    public Book () {}
+
     private static Set<Book> books;
 
     static {
