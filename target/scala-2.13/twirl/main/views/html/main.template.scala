@@ -75,8 +75,8 @@ Seq[Any](format.raw/*8.1*/("""
 
               /*
                   -- GENERATED --
-                  DATE: 2019-07-17T11:24:56.638
-                  SOURCE: /home/desenvolvedor0/Documentos/playframework/play-samples-play-java-hello-world-tutorial/app/views/main.scala.html
+                  DATE: 2019-07-17T15:29:34.029
+                  SOURCE: /home/desenvolvedor0/Documentos/livraria-playframework/app/views/main.scala.html
                   HASH: 6dad7626179b7e474ff062e73dbdc0c8d6610738
                   MATRIX: 1206->260|1330->291|1357->292|1437->345|1463->350|1623->483|1638->489|1700->530|1779->582|1794->588|1857->630|1941->687|1956->693|2017->732|2065->753|2080->759|2142->800|2222->853|2237->859|2299->900|2603->1178|2631->1185|2659->1186
                   LINES: 33->7|38->8|39->9|43->13|43->13|45->15|45->15|45->15|46->16|46->16|46->16|47->17|47->17|47->17|48->18|48->18|48->18|49->19|49->19|49->19|59->29|59->29|60->30

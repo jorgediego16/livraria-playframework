@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/home/desenvolvedor0/Documentos/playframework/play-samples-play-java-hello-world-tutorial/conf/routes
-// @DATE:Wed Jul 17 14:38:01 BRT 2019
+// @SOURCE:/home/desenvolvedor0/Documentos/livraria-playframework/conf/routes
+// @DATE:Wed Jul 17 15:29:33 BRT 2019
 
 
 package router {

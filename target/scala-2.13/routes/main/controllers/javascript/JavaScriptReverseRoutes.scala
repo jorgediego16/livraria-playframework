@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/home/desenvolvedor0/Documentos/playframework/play-samples-play-java-hello-world-tutorial/conf/routes
-// @DATE:Wed Jul 17 14:38:01 BRT 2019
+// @SOURCE:/home/desenvolvedor0/Documentos/livraria-playframework/conf/routes
+// @DATE:Wed Jul 17 15:29:33 BRT 2019
 
 import play.api.routing.JavaScriptReverseRoute
 
@@ -18,16 +18,6 @@ package controllers.javascript {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
-  
-    // @LINE:10
-    def welcome: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.HomeController.welcome",
-      """
-        function(name0,lastName1) {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "welcome/" + encodeURIComponent((""" + implicitly[play.api.mvc.PathBindable[String]].javascriptUnbind + """)("name", name0)) + "/" + encodeURIComponent((""" + implicitly[play.api.mvc.PathBindable[String]].javascriptUnbind + """)("lastName", lastName1))})
-        }
-      """
-    )
   
     // @LINE:6
     def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
@@ -61,7 +51,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:13
+  // @LINE:19
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -69,12 +59,92 @@ package controllers.javascript {
     }
 
   
-    // @LINE:13
+    // @LINE:19
     def versioned: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.versioned",
       """
         function(file1) {
           return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "assets/" + (""" + implicitly[play.api.mvc.PathBindable[Asset]].javascriptUnbind + """)("file", file1)})
+        }
+      """
+    )
+  
+  }
+
+  // @LINE:10
+  class ReverseBooksController(_prefix: => String) {
+
+    def _defaultPrefix: String = {
+      if (_prefix.endsWith("/")) "" else "/"
+    }
+
+  
+    // @LINE:13
+    def edit: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.BooksController.edit",
+      """
+        function(id0) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "books/edit/" + encodeURIComponent((""" + implicitly[play.api.mvc.PathBindable[Integer]].javascriptUnbind + """)("id", id0))})
+        }
+      """
+    )
+  
+    // @LINE:11
+    def create: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.BooksController.create",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "books/create"})
+        }
+      """
+    )
+  
+    // @LINE:12
+    def show: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.BooksController.show",
+      """
+        function(id0) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "books/" + encodeURIComponent((""" + implicitly[play.api.mvc.PathBindable[Integer]].javascriptUnbind + """)("id", id0))})
+        }
+      """
+    )
+  
+    // @LINE:16
+    def destroy: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.BooksController.destroy",
+      """
+        function(id0) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "books/delete/" + encodeURIComponent((""" + implicitly[play.api.mvc.PathBindable[Integer]].javascriptUnbind + """)("id", id0))})
+        }
+      """
+    )
+  
+    // @LINE:15
+    def save: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.BooksController.save",
+      """
+        function() {
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "books/create"})
+        }
+      """
+    )
+  
+    // @LINE:14
+    def update: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.BooksController.update",
+      """
+        function() {
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "books/edit"})
+        }
+      """
+    )
+  
+    // @LINE:10
+    def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.BooksController.index",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "books"})
         }
       """
     )

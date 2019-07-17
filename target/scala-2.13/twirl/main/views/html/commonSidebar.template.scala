@@ -61,8 +61,8 @@ Seq[Any](_display_(/*2.2*/defining(play.core.PlayVersion.current)/*2.41*/ { vers
 
               /*
                   -- GENERATED --
-                  DATE: 2019-07-17T11:24:56.695
-                  SOURCE: /home/desenvolvedor0/Documentos/playframework/play-samples-play-java-hello-world-tutorial/app/views/commonSidebar.scala.html
+                  DATE: 2019-07-17T15:29:34.095
+                  SOURCE: /home/desenvolvedor0/Documentos/livraria-playframework/app/views/commonSidebar.scala.html
                   HASH: 1a73972e0a1b235633b0ddd65945ca057024fac0
                   MATRIX: 949->1|1045->5|1092->44|1142->57|1169->58|1243->106|1257->112|1298->133|1367->176|1381->182|1424->205|1498->253|1512->259|1556->283|1708->408|1736->415
                   LINES: 28->1|33->2|33->2|33->2|34->3|36->5|36->5|36->5|37->6|37->6|37->6|38->7|38->7|38->7|42->11|42->11
