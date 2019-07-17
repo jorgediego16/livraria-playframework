@@ -1,25 +1,24 @@
-@(bookForm : Form[Book])
-@import helper._
+@(bookForm: Form[Book])
+    @import helper._
 
-<html>
+    <html>
 
-    <head>
-        <title>Create Book</title>
-    </head>
+        <head>
+            <title>Create Book</title>
+        </head>
 
-    <body>
+        <body>
 
-        <h1>Create Book</h1>
-        @helper.form(action = helper.CSRF(routes.BooksController.save())) {
-            @helper.inputText(bookForm("id"))
-            @helper.inputText(bookForm("title"))
-            @helper.inputText(bookForm("price"))
-            @helper.inputText(bookForm("author"))
+            <h1>Create Book</h1>
+            @helper.form(action = helper.CSRF(routes.BooksController.save())) {
+                @helper.inputText(bookForm("id"))
+                @helper.inputText(bookForm("title"))
+                @helper.inputText(bookForm("price"))
+                @helper.inputText(bookForm("author"))
 
-            <input type="submit" value="Create Book">
-        }
+                <input type="submit" value="Create Book">
+                }
 
+        </body>
 
-    </body>
-
-</html>
+    </html>

@@ -16,35 +16,35 @@ public class BooksController extends Controller {
     @Inject
     FormFactory formFactory;
 
-    public Result index () {
+    public Result index() {
         Set<Book> books = Book.allBooks();
 
         return ok(index.render(books));
     }
 
-    public Result create () {
+    public Result create() {
         Form<Book> bookForm = formFactory.form(Book.class);
 
         return ok(create.render(bookForm));
     }
 
-    public Result save () {
+    public Result save() {
         return TODO();
     }
 
-    public Result edit (Integer id) {
+    public Result edit(Integer id) {
         return TODO();
     }
 
-    public Result update () {
+    public Result update() {
         return TODO();
     }
 
-    public Result destroy (Integer id) {
+    public Result destroy(Integer id) {
         return TODO();
     }
 
-    public  Result show (Integer id) {
+    public Result show(Integer id) {
         return TODO();
     }
 

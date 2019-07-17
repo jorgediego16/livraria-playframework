@@ -17,7 +17,8 @@ public class Book {
         this.author = author;
     }
 
-    public Book () {}
+    public Book() {
+    }
 
     private static Set<Book> books;
 
@@ -27,11 +28,11 @@ public class Book {
         books.add(new Book(2, "Java", 30, "XYZ"));
     }
 
-    public static Set<Book> allBooks () {
+    public static Set<Book> allBooks() {
         return books;
     }
 
-    public static Book findById (Integer id) {
+    public static Book findById(Integer id) {
         for (Book book : books) {
             if (id.equals(book.id)) {
                 return book;
@@ -40,11 +41,11 @@ public class Book {
         return null;
     }
 
-    public static void add (Book book) {
+    public static void add(Book book) {
         books.add(book);
     }
 
-    public static boolean remove (Book book) {
+    public static boolean remove(Book book) {
         return books.remove(book);
     }
 }
